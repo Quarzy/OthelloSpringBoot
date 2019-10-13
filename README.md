@@ -4,7 +4,7 @@ Spring Bootによるオセロゲームのサンプルです。
 動作方法
 IntelliJ IDEAによるテスト動作にみ確認
 
-1.IntelliJ IDEAで [File]->[New]->[Project from Version Control]->[Git]
+1.IntelliJ IDEAで [File]->[New]->[Project from Version Control]->[Git]<br/>
 2.URLに当該URLを入力し[Clone]を押下
 3.ウィンドウの右下のプログレスバーが完了するまで待機
 4.ウィンドウの右下の [Non-managed pom.xml file found:] をクリック
