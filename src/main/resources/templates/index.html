@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>O T H E L L O</title>
+</head>
+<body>
+<form th:action="@{/games}" method="POST">
+  <button type="submit">Start Game</button>
+</form>
+<div th:if="${not #lists.isEmpty(names)}">
+  <ul>
+    <li th:each="name : ${names}">
+      <a th:href="@{/games/{name}(name=${name})}" th:text="${name}">1</a>
+    </li>
+  </ul>
+</div>
+</body>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>O T H E L L O</title>
+  <script th:inline="javascript">
+    function init() {
+      return {
+        name: /*[[${name}]]*/ 'abc',
+        piece: /*[[${piece}]]*/ 'BLACK',
+        player: /*[[${player}]]*/ false,
+        board: /*[[${board}]]*/ [],
+      };
+    }
+  </script>
+  <script src="/js/Main.js"></script>
+</head>
+<body>
+<div id="main"></div>
+</body>
