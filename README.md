@@ -1,7 +1,7 @@
 # OthelloSpringBoot
 Spring Bootによるオセロゲームのサンプルです。
 
-動作方法
+動作方法<br/>
 IntelliJ IDEAによるテスト動作のみ確認
 
 1.IntelliJ IDEAで [File]->[New]->[Project from Version Control]->[Git]<br/>
